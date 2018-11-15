@@ -1,0 +1,65 @@
+<!--首页-->
+<!--图片轮播-->
+<view class="slider">
+  <swiper autoplay interval="3500">
+      <swiper-item wx:for="{{imagelist}}" wx:key="{{id}}">
+        <image src="{{item.img}}" mode="widthfixed" width="380"  lazy-load/>
+      </swiper-item>
+  </swiper>
+</view>
+<view class="nav">
+  <text>❈自营品牌</text>
+  <text>❈30天无忧退货</text>
+  <text>❈48小时快速退款</text>
+</view>
+<!--首页分区-->
+<view bindtap="shoplist" class="index-nav">
+    <view class="nav-item">
+        <image src="/img/dq.png" />
+        <text>电器</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/sm.png" />
+        <text>数码产品</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/jj.png" />
+        <text>居家</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/nz.png" />
+        <text>男装</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/nvz.png" />
+        <text>女装</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/xb.png" />
+        <text>鞋靴</text>
+    </view>
+    
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/yt.png" />
+        <text>婴童</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/ys.png" />
+        <text>饮食</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/cc.png" />
+        <text>餐厨</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/xiangb.png" />
+        <text>箱包</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <image src="/img/xh.png" />
+        <text>洗护</text>
+    </view>
+    <view bindtap="shoplist"  class="nav-item">
+        <text>更多</text>
+    </view>
+</view>

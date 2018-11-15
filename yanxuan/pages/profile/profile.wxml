@@ -1,0 +1,49 @@
+<!--用户中心-->
+<!--头像-->
+<view bindtap="zhu" class="avatar">
+    <image src="/img/ava2.jpg" />
+</view>
+<view class="divider"></view>
+<!--个人资料-->
+<view class="cell">
+    <navigator class="cell-item">
+        <text>个人资料</text>
+    </navigator>
+    <navigator class="cell-item arrow">
+        <text>地址管理</text>
+    </navigator>
+</view>
+<view class="divider"></view>
+<!--常见问题-->
+<view class="cell">
+    <navigator class="cell-item arrow">
+        <text>我的订单</text>
+    </navigator>
+    <navigator class="cell-item arrow">
+        <text>我的拼团</text>
+    </navigator>
+    <navigator class="cell-item arrow">
+        <text>我的积分</text>
+    </navigator>
+    <navigator class="cell-item arrow">
+        <text>优惠券</text>
+    </navigator>
+    <navigator class="cell-item arrow">
+        <text>退换/售后</text>
+    </navigator>
+     <navigator class="cell-item">
+        <text>联系客服</text>
+    </navigator>
+</view>    
+<view class="divider"></view>
+<view class="cell">
+    <navigator class="cell-item">
+        <text>用户反馈</text>
+    </navigator>
+     <navigator class="cell-item arrow">
+        <text>帮助中心</text>
+    </navigator>
+</view>
+     
+
+<!--设置-->

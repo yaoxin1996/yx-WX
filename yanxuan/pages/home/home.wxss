@@ -1,0 +1,53 @@
+.slider,.slider image,.slider swiper{
+  width:100%;
+  height:390rpx;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.nav text{
+  font-size: 13px;
+  margin: 10rpx 10rpx;
+  color: #BE9A60;
+}
+
+/*分区*/
+.index-nav{
+  display: flex;
+  flex-wrap: wrap; 
+}
+.index-nav .nav-item{
+  height: 200rpx;
+  width: 33.333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  background-color: #fff;
+}
+.nav-item text{
+  margin-top: 10rpx;
+  color: #666;
+}
+.index-nav image{
+  width: 80rpx;
+  height: 80rpx;
+}
+/*九宫格细线*/
+.index-nav .nav-item::after{
+  content: "";
+  width: 1rpx;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #ccc;
+}
+.index-nav .nav-item:nth-child(3n)::after{
+  width: 0;
+}

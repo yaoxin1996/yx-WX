@@ -1,0 +1,133 @@
+.floor1{
+    margin: 10rpx 10rpx;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .fx{
+    color: rgb(211, 9, 9);
+    margin-left: 5rpx;
+  }
+  .f1-t{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .more{font-size: 12px;}
+  .pt-list{
+    width: 115px;
+    margin-top: 8rpx;
+    text-align: center;
+    position: relative;
+  }
+  .pt-list image{
+    width: 115px;
+    height: 115px;
+  }
+  .pt-price{
+    font-size: 12px;
+    color: rgb(211, 9, 9);
+  }
+  .old-price{
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+  }
+  .pt-list .lt{
+    position: absolute;
+    font-size: 12px;
+    color: #fff;
+    background-color: darkorange;
+    padding: 2px 5px;
+    border-bottom-right-radius: 8px;
+    top: 0px;
+  }
+  /*floor2*/
+  .floor2{
+    margin: 10rpx;
+  }
+  .col1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .col1 view{
+    width: 115px;
+    position: relative;
+  }
+  .col1 image{
+    width: 115px;
+    height: 115px;
+  }
+  .f2-t{
+    position: absolute;
+    top: 15rpx;
+    font-size: 14px;
+    color: #999;
+    margin-left: 30px;
+  }
+  .col2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .col2 view{
+    width: 177px;
+    position: relative;
+  }
+  .col2 image{
+    width: 177px;
+    height: 105px;
+  }
+  .col2 text{
+    position: absolute;
+    font-size: 14px;
+    top: 15rpx;
+    left: 50px;
+    color: #999;
+  }
+  /*全部商品*/
+  .floor3{
+    margin: 20rpx;
+  }
+  .tj{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20rpx;
+  }
+  .tj-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  .tj-link{
+    width: 170px;  
+    margin-bottom: 20rpx;
+  }
+  .tj-link image{
+    width: 170px;
+    height: 170px;
+  }
+  .tj-img{
+    width: 170px;
+    height: 170px;
+    background-color: #f5f5f5;
+    vertical-align: middle;
+  }
+  .info{
+    width: 170px;
+    height: 30px;
+    background-color: #F4F0EA;
+  }
+  .info text{
+    font-size: 12px;
+    color: #BE9A60;
+  }
+  .price{
+    color:rgb(211, 9, 9);
+    font-size: 15px;
+  }
+  .title{
+    font-size: 14px;
+  
+  }

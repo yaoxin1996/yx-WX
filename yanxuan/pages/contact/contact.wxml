@@ -1,0 +1,26 @@
+<view class="divider"></view>
+<view class="cell">
+    <form bindsubmit="submitHandle">
+        <view class="cell-item">
+            <text>添加用户信息</text>
+        </view>
+        <view class="cell-item">
+            <input type="text" name="uname" placeholder="请输入3~12位用户名"/>
+        </view>
+        <view class="cell-item">
+            <input type="password" name="upwd" placeholder="请输入密码"/>
+        </view>
+        <view class="cell-item">
+            <input type="password" name="upwd" placeholder="请输入邮箱"/>
+        </view>
+        <view class="cell-item">
+            <radio-group>
+                <radio value="male" name="r" checked/>男
+                <radio value="female" name="r"/>女
+            </radio-group>
+        </view>
+        <view>
+            <button formType="submit">注册</button>
+        </view>
+    </form>
+</view>

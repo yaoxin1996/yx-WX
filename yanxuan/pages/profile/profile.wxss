@@ -1,0 +1,25 @@
+page{
+    background-color: #f1f1f1;
+}
+.avatar{
+    height: 400rpx;
+    background-color: #D6BC86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar image{
+    width: 200rpx;
+    height: 200rpx;
+    border: 10rpx solid rgba(180,160,120,.3);
+    border-radius: 50%;
+}
+/*列表*/
+.cell{
+    background-color: #fff;
+    font-size: 16px;
+}
+.cell-item{
+    border-bottom: 1rpx solid #ddd;
+    padding: 20rpx 30rpx;
+}

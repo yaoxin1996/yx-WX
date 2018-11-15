@@ -1,0 +1,79 @@
+<!--floor2-->
+<view class="floor2">
+  <view class="col1">
+    <view bindtap="msg">
+      <view>
+        <text class="f2-t">超值拼团</text>
+        <image src="/img/pt.jpg" />
+      </view>
+    </view>
+    <view bindtap="msg">
+      <view>
+        <text class="f2-t">新品首发</text>
+        <image src="/img/xp.png" />
+      </view>
+    </view>
+    <view bindtap="msg">
+      <view>
+        <text class="f2-t">严选砍价</text>
+        <image src="/img/cw.png" />
+      </view>
+    </view>
+  </view>
+  <view class="col2">
+    <view bindtap="msg">
+      <view>
+        <image src="/img/xx.png" />
+        <text>新秀丽制造商</text>
+      </view>
+    </view>
+    <view bindtap="msg">
+      <view>
+        <image src="/img/mu.png" />
+        <text>MUJI制造商</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="divider"></view>
+
+<!--拼团-->
+<view class="floor1">
+  <view class="f1-t">
+    <view>
+      <text>免邮拼团</text>
+      <text class="fx">团长返现</text>
+    </view>
+    <text class="more">更多></text> 
+  </view>
+  <view class="pt-list" wx:for="{{pin}}" wx:key="{{pid}}">
+    <view>
+      <image bindtap="showDetail" data-pid="{{item.pid}}" src="{{item.pic}}" lazy-load/>
+      <text class="pt-price">拼团价¥{{item.price}}</text>
+      <text class="old-price">¥{{item.price+10}}</text>
+      <view class="lt">
+        <text>3人团</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="divider"></view>
+<!--floor3-->
+<view class="floor3">
+  <view class="tj">
+    <text>全部商品</text>
+  </view>
+  <view class="tj-list">
+    <view class="tj-link" wx:for="{{shopList}}" wx:key="{{pid}}">
+      <view class="tj-img">
+        <image bindtap="showDetail" data-pid="{{item.pid}}" src="{{item.pic}}" lazy-load/>
+      </view>
+      <view class="info ell">
+        <text>{{item.subtitle}}</text>
+      </view>
+      <text class="title ell">{{item.pname}}</text>
+      <view class="price">¥{{item.price}}</view>
+    </view>
+  </view>
+  <view class="loadmore loading" wx:if="{{hasMore}}">加载更多</view>
+</view>
